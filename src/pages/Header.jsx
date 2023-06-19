@@ -2,6 +2,10 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
+import Image from "next/image";
+
+import logo from "../assets/D13_Logo.png";
+
 import { HiOutlineX } from "react-icons/hi";
 import { AiOutlineMenu } from "react-icons/ai";
 import MobileNav from "@/components/navbar/MobileNav";
@@ -40,7 +44,7 @@ const Header = () => {
                   fill="currentColor"
                 />
               </svg> */}
-
+              {/* <Image src={logo} className="w-28" alt="logo" /> */}
               <span className="block tracking-[8px] font-semibold font-Outfit text-3xl text-[#fff]">
                 LOGO
               </span>

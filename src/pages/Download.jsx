@@ -87,7 +87,7 @@ const Download = () => {
         <Image
           src={phone}
           alt="phone-gif"
-          className="relative top-10 mt-4 xl:w-[100%] lg:w-[80%]"
+          className="relative top-10 mt-4 lg:w-[100%]"
         />
       </div>
     </section>

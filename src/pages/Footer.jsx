@@ -22,8 +22,8 @@ const Footer = () => {
               </span>
               <span className="font-inter">
                 <strong>Phone</strong>: +91 628940944
-              </span> */}
-              {/* <span className="font-inter capitalize text-base">
+              </span>
+              <span className="font-inter capitalize text-base">
                 <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i <br />
                 gate, bartand, dhanbad, jharkhand,
                 <br /> india (826001){" "}
@@ -113,8 +113,8 @@ const Footer = () => {
                 <strong>Phone</strong>: +91 628940944
               </span>
               <span className="font-Outfit capitalize text-base">
-                <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i India
-                (826001){" "}
+                <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i gate,
+                bartand, dhanbad, jharkhand, India (826001){" "}
               </span>
             </div>
 
@@ -130,7 +130,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-12 w-full border-t border-white bg-[#220f28] pt-6 pb-12">
-        <div className="container mx-auto max-w-screen-xl px-4 text-center sm:flex sm:justify-between sm:text-left">
+        <div className="container mx-auto max-w-screen-xl px-4 text-center sm:flex sm:flex-col md:flex-row sm:items-center sm:justify-between sm:text-left">
           <div className="md:w-1/2 flex sm:justify-center lg:justify-end flex-row gap-2">
             <div className="flex flex-row gap-2 ">
               <a
@@ -162,7 +162,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <p className="md:w-1/2 flex lg:justify-start sm:justify-center mt-4 text-[10px] sm:text-sm text-white sm:order-first sm:mt-0">
+          <p className="md:w-1/2 sm:flex lg:justify-start sm:justify-center mt-4 text-[14px] sm:text-sm text-white sm:order-first sm:mt-0">
             © 2022 thetutorlancer.com. All rights reserved Abhay Education Pvt.
             Ltd.
           </p>

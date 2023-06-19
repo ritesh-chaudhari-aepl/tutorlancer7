@@ -1,17 +1,14 @@
-import AboutUs from '@/pages/AboutUs'
 import Contact from '@/pages/Contact'
 import Download from '@/pages/Download'
-import Features from '@/pages/Features'
+// import Features from '@/pages/Features'
 import Footer from '@/pages/Footer'
 import HeroSection from '@/pages/HeroSection'
 import Instructor from '@/pages/Instructor'
 import Pricing from '@/pages/Pricing1'
 import Services from '@/pages/Services'
-import Sessions from '@/pages/Sessions'
 import Testimonials from '@/pages/Testimonials'
 import Header from '@/pages/header'
 import MakingEassy from '@/pages/makingEassy'
-import OnlineEducation from '@/pages/onlineEducation'
 import WorkingProcess from '@/pages/workingProcess'
 
 
@@ -23,9 +20,7 @@ export default function Page() {
         <HeroSection/>
         <Services />
         <WorkingProcess/>
-        {/* <AboutUs />
-        <Features />
-      <Sessions /> */}
+        {/* <Features /> */}
         <Testimonials />
         <Pricing />
         <MakingEassy />

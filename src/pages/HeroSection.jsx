@@ -29,13 +29,13 @@ const HeroSection = () => {
 
         <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 md:flex h-auto lg:items-center justify-between lg:px-8">
           <div className="md:w-1/2 w-full text-center sm:text-left">
-            <h1 class="text-3xl text-white leading-5 font-Outfit font-extrabold lg:text-5xl">
-              A good
+            <h1 class="sm:text-3xl text-white leading-7 font-Outfit font-extrabold lg:text-4xl xl:text-5xl">
+              A good{" "}
               <span class="font-Outfit font-extrabold text-orange-home8">
                 #education
-              </span>
+              </span>{" "}
               is always a base of
-              <span class="flex p-6 font-Outfit font-extrabold w-fit text-white bg-blue-light">
+              <span class="sm:w-auto sm:justify-center flex mt-3 px-4 py-3 font-Outfit font-extrabold md:w-fit text-white bg-blue-light">
                 A bright future
               </span>
             </h1>
