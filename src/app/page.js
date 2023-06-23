@@ -7,11 +7,11 @@ import Download from '@/pages/Download'
 // import Features from '@/pages/Features'
 // import Footer from '@/pages/Footer'
 import HeroSection from '@/pages/HeroSection'
-import Instructor from '@/pages/Instructor'
-import Pricing from '@/pages/Pricing1'
+// import Instructor from '@/pages/Instructor'
+import Pricing from '@/pages/Pricing'
 import Services from '@/pages/Services'
-import Testimonials from '@/pages/Testimonials'
-// import Header from '../components/header/Header.jsx'
+// import Testimonials from '@/pages/Testimonials'
+import Header from '../components/header/Header.jsx'
 import MakingEassy from '@/pages/makingEassy'
 import WorkingProcess from '@/pages/workingProcess'
 
@@ -23,7 +23,7 @@ export default function Page() {
   return (
     <>
       {/* <div className='mt-24 lg:mt-30 md:mt-28'> */}
-      {/* <Header/> */}
+      <Header/>
         <HeroSection/>
         <Services />
         <WorkingProcess/>
