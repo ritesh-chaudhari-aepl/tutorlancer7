@@ -20,7 +20,7 @@ const HeroSection = () => {
     height: "-webkit-fill-available",
   };
   return (
-    <div>
+    <div className="pt-28 md:pt-24 lg:py-16">
       <section className="block relative bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0">
           <Image src={bgbanner} alt="background image" style={banner} />
@@ -41,8 +41,8 @@ const HeroSection = () => {
             </h1>
 
             <p class="mt-5 text-white font-OpenSans max-w-lg sm:text-l/relaxed">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-              illo tenetur fuga ducimus numquam ea!
+              Hire us for quality solutions to all your coursework at affordable
+              prices.
             </p>
 
             <div class="mt-8 flex flex-wrap gap-4 text-center">
@@ -69,6 +69,9 @@ const HeroSection = () => {
               className="md:w-[80%] xl:w-full w-full"
               alt="Party"
               src={bannerrightimage}
+              data-aos="fade-left"
+              // data-aos-delay="50"
+              // data-aos-duration="500"
             />
           </div>
         </div>

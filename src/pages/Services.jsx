@@ -105,81 +105,69 @@ const Services = () => {
               </h1>
             </div>
             <p className="mt-4 text-black">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-              fugit consequuntur saepe laborum.
+              Let us take care of your homework needs in the fastest and most
+              efficient way.
             </p>
           </div>
 
           <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <MainCard
               icon={<PeopleOutlinedIcon />}
-              title="Online Tutoring"
+              title="Apps for Mobile & Web"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Our tutors will make very user-friendly and efficient apps, exactly matching your needs. Boost your business goal."
             />
 
             <MainCard
               icon={<AccessTimeOutlinedIcon />}
               title=" 24/7 Support"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Tutorlancer is focused on ensuring to meet the needs of the students around the globe for their assignments."
             />
 
             <MainCard
               icon={<ImportantDevicesOutlinedIcon />}
               title="live sessions"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="We provide the best tutors for you to interact with in real to get instant solutions for your problems. Pickup your phone now !"
             />
 
             <MainCard
               icon={<ScienceOutlinedIcon />}
               title="Lab work"
               // iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="PSpice, Orcad, AutoCAD,Solidworks, and many more simulation
+              softwares, our Lab tutors can handle them all."
             />
 
             <MainCard
               icon={<DataUsageOutlinedIcon />}
               title="project help"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Get the most professional project assistance from our PhD tutors
+              who can guide and walk you through your project online."
             />
             <MainCard
               icon={<VideoCameraFrontOutlinedIcon />}
               title="video calling support"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Real-time tools and rich insights mean our support solution
+              amplifies your team for an unbeatable experience."
             />
 
             <MainCard
               icon={<DriveFileRenameOutlineOutlinedIcon />}
               title="writing help"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Our Native essay tutors help you meet university standards in
+              terms of writing and structuring of academic essays."
             />
             <MainCard
               icon={<ContentPasteSearchOutlinedIcon />}
               title="homework help"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Stuck with homework? PhD tutors have a distinctive mode of
+              expression assisting students to solve assignments flawlessly."
             />
           </div>
 

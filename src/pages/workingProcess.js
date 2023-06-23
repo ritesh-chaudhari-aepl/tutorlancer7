@@ -31,34 +31,44 @@ const WorkingProcess = () => {
                  icon={<HeadsetOutlinedIcon className='text-[#7357fb]'/>}
                  style=" bg-[#f1eeff] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
                  title="24/7 support"
-                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." 
+                 msg="Good Grades is focused on ensuring to meet the needs of the
+                 students around the globe for their assignments." 
                 /> 
 
                 <WhatWeOfferCard 
                  icon={<AccessAlarmOutlinedIcon className='text-[#20b9a5]'/>}
                  style=" bg-[#e7f8f5] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
                  title='Plagiarism Free' 
-                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
+                 msg="Get plagiarism free work where each and every assignment is
+                 written from scratch to ensure that no content is plagiarized." /> 
+
                 <WhatWeOfferCard 
                  icon={<SmartButtonOutlinedIcon className='text-[#ff6167]'/>}
                  style=" bg-[#ffeff0] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
                  title='On time Delivery' 
-                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
+                 msg="We make sure your work reach you on time because we know if it's
+                 not with you on-time, it will be a waste." /> 
+
                 <WhatWeOfferCard 
                  icon={<PlagiarismOutlinedIcon className='text-[#7357fb]'/>}
                  style=" bg-[#f1eeff] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
                  title='Refundable' 
-                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
+                 msg="Your payment is secured by paypal and razorpay, upto 100% money
+                 back guarantee." /> 
+
                 <WhatWeOfferCard 
                  icon={<MonetizationOnOutlinedIcon className='text-[#20b9a5]'/>}
                  style=" bg-[#e7f8f5] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
-                 title='Compatative Pricing' 
-                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
+                 title='Competitive Pricing' 
+                 msg="Our prices are reasonable and pocket-friendly because we
+                 understand you better." /> 
+
                 <WhatWeOfferCard 
                  icon={<AutorenewOutlinedIcon className='text-[#ff6167]'/>}
                  style=" bg-[#ffeff0] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
                  title='Unlimited Revissions' 
-                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
+                 msg="You get 100% customized work as per your requirements, we are
+                always willing to accommodate." /> 
 
 
             </div>

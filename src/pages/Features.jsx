@@ -25,9 +25,11 @@ const Features = () => {
             <span className="h-[2px] bg-pink-darkPink  w-16 mb-4" />
           </div>
           <p className="mt-4 text-black">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-            fugit consequuntur saepe laborum.
+            Good Grades is dedicated to offering the best academic help to
+            students. Over the years, Good Grades has grown in popularity as a
+            trusted name in online homework help among students from around the
+            globe. Here are some salient features of the services offered by
+            Good Grades.
           </p>
         </div>
 

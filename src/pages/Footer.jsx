@@ -132,7 +132,12 @@ const Footer = () => {
       <div className="mt-12 w-full border-t border-white bg-[#220f28] pt-6 pb-12">
         <div className="container mx-auto max-w-screen-xl px-4 text-center sm:flex sm:flex-col md:flex-row sm:items-center sm:justify-between sm:text-left">
           <div className="md:w-1/2 flex sm:justify-center lg:justify-end flex-row gap-2">
-            <div className="flex flex-row gap-2 ">
+            <div>
+              <a href="/termandcond">Terms & conditions</a> |{" "}
+              <a href="/privacy">Privacy Policy</a> |{" "}
+              <a href="/refund">Refunds</a>
+            </div>
+            {/* <div className="flex flex-row gap-2 ">
               <a
                 className="inline-block md:text-md sm:text-sm text-white transition hover:text-white/75"
                 href="/"
@@ -159,7 +164,7 @@ const Footer = () => {
               >
                 Refund
               </a>
-            </div>
+            </div> */}
           </div>
 
           <p className="md:w-1/2 sm:flex lg:justify-start sm:justify-center mt-4 text-[14px] sm:text-sm text-white sm:order-first sm:mt-0">
