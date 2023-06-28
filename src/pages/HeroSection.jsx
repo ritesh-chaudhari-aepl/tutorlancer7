@@ -20,7 +20,7 @@ const HeroSection = () => {
     height: "-webkit-fill-available",
   };
   return (
-    <div>
+    <div className="pt-28 md:pt-24 lg:py-16">
       <section className="block relative bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0">
           <Image src={bgbanner} alt="background image" style={banner} />
@@ -29,31 +29,45 @@ const HeroSection = () => {
 
         <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 md:flex h-auto lg:items-center justify-between lg:px-8">
           <div className="md:w-1/2 w-full text-center sm:text-left">
-            <h1 class="text-3xl text-white leading-5 font-Outfit font-extrabold lg:text-5xl">
-              A good
+            <h1 class="sm:text-3xl text-white leading-7 font-Outfit font-extrabold lg:text-4xl xl:text-5xl">
+              Achieve{" "}
+              <span class="font-Outfit font-extrabold text-orange-home8">
+                #your
+              </span>{" "}
+              {/* is always a base of */}
+              <span class="sm:w-auto sm:justify-center flex mt-3 px-4 py-3 font-Outfit font-extrabold md:w-fit text-white bg-blue-light">
+                Academic Success
+              </span>
+              {/* A good{" "}
               <span class="font-Outfit font-extrabold text-orange-home8">
                 #education
-              </span>
+              </span>{" "}
               is always a base of
-              <span class="flex p-6 font-Outfit font-extrabold w-fit text-white bg-blue-light">
+              <span class="sm:w-auto sm:justify-center flex mt-3 px-4 py-3 font-Outfit font-extrabold md:w-fit text-white bg-blue-light">
                 A bright future
-              </span>
+              </span> */}
             </h1>
 
             <p class="mt-5 text-white font-OpenSans max-w-lg sm:text-l/relaxed">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-              illo tenetur fuga ducimus numquam ea!
+              {/* Hire us for quality solutions to all your coursework at affordable
+              prices. */}
+              Professional Experts and Writers from all Academic Fields-
+              <br />
+              ~ Assignments, Projects & Dissertations
+              <br />
+              ~ Research Papers, Thesis, Reports
+              <br />~ Case Studies, Exams etc.
             </p>
 
             <div class="mt-8 flex flex-wrap gap-4 text-center">
               <a
-                href="#"
+                href="#contact"
                 class="block w-full rounded-md bg-gradient-to-r from-yellow-home7 from-10% via-orange-home7 via-50% to-orange-home7 to-100% px-12 py-3 text-md font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
               >
-                Start as student
+                Get Started
               </a>
 
-              <a
+              {/* <a
                 href="#contact"
                 class="block w-full rounded-md border-2 bg-transparent border-gray-100 px-12 py-3 text-md font-medium text-white focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
               >
@@ -61,7 +75,7 @@ const HeroSection = () => {
                 <span className="font-Outfit ml-2 font-normal text-sm text-yellow-home8">
                   It's Free!
                 </span>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="flex md:w-1/2 w-full justify-end sm:text-right">
@@ -69,6 +83,9 @@ const HeroSection = () => {
               className="md:w-[80%] xl:w-full w-full"
               alt="Party"
               src={bannerrightimage}
+              data-aos="fade-left"
+              // data-aos-delay="50"
+              // data-aos-duration="500"
             />
           </div>
         </div>
