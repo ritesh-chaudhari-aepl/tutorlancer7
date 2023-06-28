@@ -3,7 +3,7 @@ import Footer from '@/pages/Footer'
 import './globals.css'
 
 export const metadata = {
-  title: 'Tutorlancer',
+  title: 'Grades Achievers',
   description: 'Solve you homework issues in a minute',
 }
 

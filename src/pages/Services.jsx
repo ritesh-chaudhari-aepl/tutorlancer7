@@ -122,7 +122,7 @@ const Services = () => {
               icon={<AccessTimeOutlinedIcon />}
               title=" 24/7 Support"
               iconBgColor="#000"
-              description="Tutorlancer is focused on ensuring to meet the needs of the students around the globe for their assignments."
+              description="Grades Achievers is focused on ensuring to meet the needs of the students around the globe for their assignments."
             />
 
             <MainCard

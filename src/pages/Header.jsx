@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 import Image from "next/image";
 
-import logo from "../assets/D13_Logo.png";
+import logo from "../assets/D13_D10.png";
 
 import { HiOutlineX } from "react-icons/hi";
 import { AiOutlineMenu } from "react-icons/ai";
